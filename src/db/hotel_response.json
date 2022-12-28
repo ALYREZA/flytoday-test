@@ -1,0 +1,982 @@
+{
+  "hotelSearchId": 58841,
+  "checkIn": "2022-12-12",
+  "checkOut": "2022-12-13",
+  "pricedItineraries": [
+    {
+      "hotelId": 183762,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 3,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Deluxe Double Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 QueenBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Deluxe Double Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 QueenBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 64486146
+    },
+    {
+      "hotelId": 183761,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 3,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Deluxe Double Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Deluxe Double Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 180989045
+    },
+    {
+      "hotelId": 182678,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 8,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Economy Single Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Economy Single Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 32348279
+    },
+    {
+      "hotelId": 182670,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 7,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Single Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 KingBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Single Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 KingBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 62832912
+    },
+    {
+      "hotelId": 182262,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 3,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Triple Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "1 QueenBed,1 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Triple Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "1 QueenBed,1 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 56936377
+    },
+    {
+      "hotelId": 163352,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 4,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Superior Double or Twin Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Superior Double or Twin Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 47232394
+    },
+    {
+      "hotelId": 162973,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 7,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Studio Suite",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه سبک برای دو نفر",
+          "sharingBedding": false,
+          "bedGroups": "1 QueenBed,1 SofaBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Studio Suite",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه سبک برای دو نفر",
+          "sharingBedding": false,
+          "bedGroups": "1 QueenBed,1 SofaBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 76790214
+    },
+    {
+      "hotelId": 162949,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 30,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Double or Twin Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Double or Twin Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 34382257
+    },
+    {
+      "hotelId": 162947,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 19,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Classic Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Classic Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 51092445
+    },
+    {
+      "hotelId": 162928,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 10,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Junior Suite",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه",
+          "sharingBedding": false,
+          "bedGroups": "1 KingBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Junior Suite",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه",
+          "sharingBedding": false,
+          "bedGroups": "1 KingBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 73533844
+    },
+    {
+      "hotelId": 162919,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 2,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Economy Double Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Economy Double Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 28445644
+    },
+    {
+      "hotelId": 105308,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 3,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Comfort Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Comfort Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 30249172
+    },
+    {
+      "hotelId": 20830,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 4,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Economy Double Room 1 Double Bed Non Smoking No Windows",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Economy Double Room 1 Double Bed Non Smoking No Windows",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 46541042
+    },
+    {
+      "hotelId": 8567,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 5,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Standard Double Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Standard Double Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 41886938
+    },
+    {
+      "hotelId": 4506,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 2,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Standard Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "بوفه صبحانه",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Standard Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "بوفه صبحانه",
+          "sharingBedding": false,
+          "bedGroups": "2 TwinBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 43950975
+    },
+    {
+      "hotelId": 4473,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 5,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Standard Double Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Standard Double Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "صبحانه رایگان",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 28445644
+    },
+    {
+      "hotelId": 4466,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "availableRoom": 9,
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Deluxe Room 1 King Bed",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "1 KingBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Deluxe Room 1 King Bed",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "1 KingBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 109459120
+    },
+    {
+      "hotelId": 4465,
+      "destination": {
+        "id": 924,
+        "name": "استانبول"
+      },
+      "paymentDeadline": "2021-11-30",
+      "currency": "IRR",
+      "rooms": [
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Classic Room",
+          "adultCount": 1,
+          "childCount": 0,
+          "childAges": [],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        },
+        {
+          "id": null,
+          "roomInfoId": null,
+          "name": "Classic Room",
+          "adultCount": 1,
+          "childCount": 1,
+          "childAges": ["3"],
+          "mealType": "فقط اتاق",
+          "sharingBedding": false,
+          "bedGroups": "1 FullBed",
+          "hotelRoomLateCheckout": null,
+          "hotelRoomEarlyCheckin": null,
+          "passengers": null
+        }
+      ],
+      "totalPrice": 100526647
+    }
+  ],
+  "additionalInfo": {
+    "hotels": [
+      {
+        "id": 4465,
+        "name": "InterContinental Istanbul an IHG Hotel",
+        "nameFa": null,
+        "address": "Asker Ocagi Cad No: 1 Taksim, Istanbul, Turkey",
+        "rating": 5,
+        "reviewScore": 9,
+        "reviewScoreString": "عالی",
+        "latitude": "41.040278",
+        "longitude": "28.988235",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 4466,
+        "name": "Conrad Istanbul Bosphorus",
+        "nameFa": null,
+        "address": "Cihannuma Mahallesi, Saray Caddesi No:5, Besiktas, Istanbul, Turkey",
+        "rating": 5,
+        "reviewScore": 9,
+        "reviewScoreString": "فوق العاده",
+        "latitude": "41.046936",
+        "longitude": "29.008925",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 4473,
+        "name": "Grand Ons Hotel",
+        "nameFa": null,
+        "address": "Laleli Cd, Azimkar Sk 22 , Istanbul, TR",
+        "rating": 0,
+        "reviewScore": 7,
+        "reviewScoreString": "خوب",
+        "latitude": "41.007661",
+        "longitude": "28.955553",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 4506,
+        "name": "Yigitalp Hotel",
+        "nameFa": null,
+        "address": "Gencturk Cad. Cukur Cesme Sok. No:38 Sehzadebasi, Istanbul, TR",
+        "rating": 4,
+        "reviewScore": 8,
+        "reviewScoreString": "خیلی خوب",
+        "latitude": "41.01109",
+        "longitude": "28.95593",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 8567,
+        "name": "Barin Hotel",
+        "nameFa": null,
+        "address": "Sehzadebasi Fevziye Cd No:7, Istanbul, Turkey",
+        "rating": 3,
+        "reviewScore": 7,
+        "reviewScoreString": "خوب",
+        "latitude": "41.011741",
+        "longitude": "28.956788",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 20830,
+        "name": "Hotel Saba",
+        "nameFa": null,
+        "address": "Binbirdirek mah, Sehit Mehmet Pasa Yokusu No: 8, Sultanahmet, Istanbul, TR",
+        "rating": 3,
+        "reviewScore": 9,
+        "reviewScoreString": "فوق العاده",
+        "latitude": "41.005087",
+        "longitude": "28.973978",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 105308,
+        "name": "Bakirkoy Tashan Business  Airport Hotel",
+        "nameFa": null,
+        "address": "Sakizagaci Mahallesi, Tashan Caddesi 57, Bakirkoy, Istanbul, Turkey",
+        "rating": 2,
+        "reviewScore": 8,
+        "reviewScoreString": "خوب",
+        "latitude": "40.978589",
+        "longitude": "28.883148",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 162919,
+        "name": "La Vista Hotel",
+        "nameFa": null,
+        "address": "Küçük Ayasofya Caddesi Gelinlik Sok. No:15, Sultanahmet, Istanbul, TR",
+        "rating": 2,
+        "reviewScore": 7,
+        "reviewScoreString": "",
+        "latitude": "41.003216",
+        "longitude": "28.975828",
+        "accommodation": 208,
+        "addressFa": null
+      },
+      {
+        "id": 162928,
+        "name": "Sundance Hotel Istanbul",
+        "nameFa": null,
+        "address": "Mahmutbey Mah., Tasocagi Yolu Cad. No:35 Bagcilar, Istanbul, Turkey",
+        "rating": 5,
+        "reviewScore": 8,
+        "reviewScoreString": "خوب",
+        "latitude": "41.058622",
+        "longitude": "28.81369",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 162947,
+        "name": "Niles Hotel Istanbul - Special Class",
+        "nameFa": null,
+        "address": "Ordu Caddesi Dibekli Cami Sokak No: 13, Beyazit, Istanbul, Turkey",
+        "rating": 4,
+        "reviewScore": 9,
+        "reviewScoreString": "فوق العاده",
+        "latitude": "41.008087",
+        "longitude": "28.964815",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 162949,
+        "name": "Hotel Monaco",
+        "nameFa": null,
+        "address": "Ordu Cad. Sair Fitnat Sok. No:20 Laleli, Istanbul, Turkey",
+        "rating": 3,
+        "reviewScore": 7,
+        "reviewScoreString": "خوب",
+        "latitude": "41.008479",
+        "longitude": "28.958388",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 162973,
+        "name": "Gallery Residence  Hotel",
+        "nameFa": null,
+        "address": "Valikonagi Cad., Süleyman Nazif Sk. 10 , Istanbul, TR",
+        "rating": 4,
+        "reviewScore": 8,
+        "reviewScoreString": "خیلی خوب",
+        "latitude": "41.05054",
+        "longitude": "28.98916",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 163352,
+        "name": "SV Business Hotel Taksim Istanbul",
+        "nameFa": null,
+        "address": "Topcu Caddesi No: 25, Taksim, Istanbul, Turkey",
+        "rating": 0,
+        "reviewScore": 8,
+        "reviewScoreString": "خوب",
+        "latitude": "41.039834",
+        "longitude": "28.983709",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 182262,
+        "name": "Santa Ottoman Hotel",
+        "nameFa": null,
+        "address": "Sehit Muhtar Mahallesi Kurabiye, Sokak No:1 Beyoglu, Istanbul, Turkey",
+        "rating": 4,
+        "reviewScore": 8,
+        "reviewScoreString": "خوب",
+        "latitude": "41.03653",
+        "longitude": "28.98296",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 182670,
+        "name": "Hotellino",
+        "nameFa": null,
+        "address": "Nobethane Caddesi 5 - Sirkeci, Istanbul, Turkey",
+        "rating": 4,
+        "reviewScore": 9,
+        "reviewScoreString": "عالی",
+        "latitude": "41.013983",
+        "longitude": "28.978349",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 182678,
+        "name": "Prestige Hotel Old City",
+        "nameFa": null,
+        "address": "Koska Caddesi No: 6 Laleli, Istanbul, Turkey",
+        "rating": 3,
+        "reviewScore": 7,
+        "reviewScoreString": "خوب",
+        "latitude": "41.009048",
+        "longitude": "28.957478",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 183761,
+        "name": "Ajia Hotel - Special Class",
+        "nameFa": null,
+        "address": "Halide Edip Adivar Cd No. 27, Kanlica, Beykoz, Turkey",
+        "rating": 5,
+        "reviewScore": 9,
+        "reviewScoreString": "فوق العاده",
+        "latitude": "41.102932",
+        "longitude": "29.066961",
+        "accommodation": 204,
+        "addressFa": null
+      },
+      {
+        "id": 183762,
+        "name": "Darussaade Istanbul - Special Class",
+        "nameFa": null,
+        "address": "Akbiyik Cad. No:90 Sultanahmet, Istanbul, Turkey",
+        "rating": 4,
+        "reviewScore": 9,
+        "reviewScoreString": "فوق العاده",
+        "latitude": "41.00391",
+        "longitude": "28.978929",
+        "accommodation": 204,
+        "addressFa": null
+      }
+    ]
+  }
+}
