@@ -15,7 +15,12 @@ import {
 } from 'react-native';
 import Card from './components/Card';
 import {IHotels, IPricedItineraries} from './db/dataType';
-import {getHotels, getPrice} from './utils/request';
+import {
+  getDataStorage,
+  getHotels,
+  getPrice,
+  storeDataStorage,
+} from './utils/request';
 import orderby from 'lodash.orderby';
 import filterby from 'lodash.filter';
 import Header from './components/Header';
@@ -41,12 +46,13 @@ const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
   const [seconds, setSeconds] = useState(120);
   const [loading, setLoading] = useState(false);
+  const [bookmark, setBookmark] = useState<number[]>([]);
   const [starsGroup, setStartsGroup] = useState<Object>({});
   const [modalVisible, setModalVisible] = useState(false);
   const [sheetIndex, setSheetIndex] = useState<number>(-1);
   const [originalData, setOriginalData] = useState<IHotels[]>([]);
   const [rowData, setRowData] = useState<IHotels[]>([]);
-  const [star, setStar] = useState<StarType>();
+  const [star, setStar] = useState<StarType>(undefined);
   const [hotelName, setHotelName] = useState<hotelType>('');
   const [scoreOrRate, setScoreOrRate] = useState<ScoreOrRate>();
   const bottomSheetModalRef = useRef<BottomSheetModal>(null);
@@ -93,6 +99,17 @@ const App = () => {
     bottomSheetModalRef.current?.close();
   }, [rowData, scoreOrRate, sortData]);
 
+  const clickBookmark = useCallback(
+    (id: number) => {
+      const included = bookmark.includes(id);
+      if (!included) {
+        setBookmark([...bookmark, id]);
+      } else {
+        setBookmark(bookmark.filter((hotelId: number) => hotelId !== id));
+      }
+    },
+    [bookmark],
+  );
   const clickFiltering = useCallback(() => {
     const ratingNormalize = Number(star?.split('-')[1]);
     console.log(ratingNormalize, hotelName);
@@ -103,19 +120,21 @@ const App = () => {
       if (star && hotelName === '') {
         return h.rating === ratingNormalize;
       }
-      if (hotelName !== '' && typeof star === undefined) {
+      if (hotelName !== '' && Number.isNaN(ratingNormalize)) {
         return (
           h.name.toLocaleLowerCase().indexOf(hotelName.toLocaleLowerCase()) > 0
         );
       }
+      return null;
     });
     if (filtered.length > 0) {
       setRowData(filtered);
     } else {
+      setRowData(originalData);
       ToastAndroid.showWithGravity(
         'موردی یافت نشد',
         ToastAndroid.BOTTOM,
-        ToastAndroid.SHORT,
+        ToastAndroid.LONG,
       );
     }
     setModalVisible(false);
@@ -162,8 +181,17 @@ const App = () => {
     setSeconds(119);
   }, [originalData]);
   useEffect(() => {
+    console.log({bookmark});
+    if (bookmark.length > 0) storeDataStorage(bookmark);
+  }, [bookmark]);
+  useEffect(() => {
+    getDataStorage().then((value: any) => {
+      console.log({value});
+      setBookmark(value);
+    });
     getData();
   }, []);
+
   return (
     <GestureHandlerRootView style={{flex: 1}}>
       <SafeAreaView style={styles.container}>
@@ -176,9 +204,53 @@ const App = () => {
             transparent={false}
             visible={modalVisible}>
             <View style={styles.centeredView}>
+              {hotelName !== '' && (
+                <View
+                  style={{
+                    backgroundColor: '#eee',
+                    maxHeight: 33,
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    paddingHorizontal: 18,
+                    borderWidth: 1,
+                    marginHorizontal: 18,
+                    marginBottom: 12,
+                  }}>
+                  <Text>{hotelName}</Text>
+                  <Icon
+                    onPress={() => setHotelName('')}
+                    name="close"
+                    size={22}
+                    color={'red'}
+                  />
+                </View>
+              )}
+              {typeof star !== 'undefined' && (
+                <View
+                  style={{
+                    backgroundColor: '#eee',
+                    maxHeight: 33,
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    paddingHorizontal: 18,
+                    borderWidth: 1,
+                    marginHorizontal: 18,
+                  }}>
+                  <Text>
+                    {star?.split('-')[0]} {star?.split('-')[1]}
+                  </Text>
+                  <Icon
+                    onPress={() => setStar(undefined)}
+                    name="close"
+                    size={22}
+                    color={'red'}
+                  />
+                </View>
+              )}
               <View style={styles.modalView}>
                 <Text style={styles.modalText}>نام هتل</Text>
                 <TextInput
+                  value={hotelName}
                   onChangeText={setHotelName}
                   placeholder="name of the hotel"
                   style={{
@@ -333,6 +405,29 @@ const App = () => {
                   </View>
                 </Pressable>
               </View>
+              <View style={styles.sortList}>
+                <Pressable
+                  onPress={() => setScoreOrRate(undefined)}
+                  style={{flex: 1}}>
+                  <View
+                    style={{
+                      flex: 1,
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                    }}>
+                    <Text style={styles.sortListText}>shuffle</Text>
+                    <Icon
+                      name={
+                        scoreOrRate === undefined
+                          ? 'radiobox-marked'
+                          : 'radiobox-blank'
+                      }
+                      size={20}
+                      color={'#848484'}
+                    />
+                  </View>
+                </Pressable>
+              </View>
               <View style={styles.sortListButtonWrapper}>
                 <Pressable
                   style={[styles.button, styles.buttonClose]}
@@ -352,7 +447,12 @@ const App = () => {
           )}
           <ScrollView contentContainerStyle={{alignItems: 'center'}}>
             {rowData.map(hotels => (
-              <Card key={hotels.name} info={hotels} />
+              <Card
+                bookmarks={bookmark}
+                onBookmark={clickBookmark}
+                key={hotels.name}
+                info={hotels}
+              />
             ))}
           </ScrollView>
         </BottomSheetModalProvider>
@@ -415,7 +515,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
     justifyContent: 'flex-end',
     marginHorizontal: 8,
-    maxHeight: 50,
+    maxHeight: 40,
   },
   sortListText: {
     fontSize: 20,

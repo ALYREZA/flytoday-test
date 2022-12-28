@@ -1,15 +1,18 @@
 import React, {memo} from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet, Image, Pressable} from 'react-native';
 import {IHotels} from '../db/dataType';
 import {imageUrl} from '../utils/request';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import big from 'bignumber.js';
 
 interface iCard {
-  info?: IHotels;
+  info: IHotels;
+  onBookmark: (id: number) => void;
+  bookmarks: number[];
 }
 
-const Card = ({info}: iCard) => {
+const Card = ({info, onBookmark, bookmarks = []}: iCard) => {
+  const bookmarked = bookmarks.includes(info?.id);
   const fillIcons = Array.from(new Array(info?.rating), (_, i: number) => (
     <Icon
       key={`${info?.name}-fill-${i}`}
@@ -30,6 +33,15 @@ const Card = ({info}: iCard) => {
       <View style={styles.col}>
         <View style={styles.nameWrapper}>
           <Text style={styles.nameText}>{info?.name}</Text>
+          <View>
+            <Pressable onPress={() => onBookmark(info?.id)}>
+              <Icon
+                name={bookmarked ? 'bookmark' : 'bookmark-outline'}
+                size={30}
+                color="#bfbcbc"
+              />
+            </Pressable>
+          </View>
         </View>
         <View style={styles.detailsWrapper}>
           <View style={styles.rowOne}>
@@ -58,9 +70,12 @@ const styles = StyleSheet.create({
   nameWrapper: {
     flex: 2,
     alignItems: 'flex-start',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     margin: 8,
   },
   container: {
+    position: 'relative',
     height: 230,
     backgroundColor: 'white',
     width: '90%',
